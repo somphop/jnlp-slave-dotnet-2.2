@@ -1,7 +1,5 @@
 FROM jenkins/jnlp-slave:3.19-1
 
-MAINTAINER Christopher Webb <cwebb@thoughtworks.com>
-
 USER root
 
 ENV DOTNET_RUNTIME_VERSION=2.2.6 \
