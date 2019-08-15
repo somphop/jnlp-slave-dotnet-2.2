@@ -2,8 +2,8 @@ FROM jenkins/jnlp-slave:3.19-1
 
 USER root
 
-ENV DOTNET_RUNTIME_VERSION=2.2.6 \
-    DOTNET_SDK_VERSION=2.2.401
+ENV DOTNET_RUNTIME_VERSION=2.2 \
+    DOTNET_SDK_VERSION=2.2
 
 RUN apt-get update                                                          && \
     apt-get install -y --no-install-recommends wget ruby curl apt-transport-https gpg && \
